@@ -1,5 +1,14 @@
 # IAA008-aprendizado-de-maquina
 
+## Equipe 03
+-	Gustavo Costa de Souza
+-	Marcos Vinicius de Melo
+-	Marcus Eneas Silveira Galvao do Rio Apa II
+-	Patrícia Verdugo Pascoal
+-	Rodrigo de Araujo
+-	William de Souza Alencar
+
+
 ## CLASSIFICAÇÃO
 
 Para o experimento de Classificação:	
