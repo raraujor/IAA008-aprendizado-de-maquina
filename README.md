@@ -79,21 +79,25 @@ A figura abaixo apresenta os resíduos percentuais das previsões realizadas pel
  * Os modelos utilizaram cross-validation e ajuste adequado de parâmetros via grid Search.
 
 O modelo que obteve o melhor desempenho foi o SVM com cross-validation e busca dos melhores parâmetros com grid search, alcançando um R2 de 0.85 com os parâmetros custo(C) = 50 e Sigma=0.01. Esse resultado demonstra que a combinação da técnica SVM com validação cruzada e grid Search resultou em maior capacidade de generalização em relação aos demais modelos testados.
-
+<img width="885" height="522" alt="image" src="https://github.com/user-attachments/assets/d1a7902f-b9cc-4810-bea4-e92daecef49a" />
 
 ## AGRUPAMENTO
 
 Lista de Clusters gerados:
 
 10 primeiras linhas do arquivo com o cluster correspondente.
-
 Usa 10 clusters no experimento.
-
 Colocar a lista de comandos emitidos no RStudio para conseguir os resultados obtidos
+
+A figura abaixo apresenta as dez primeiras linhas do resultado da associação. Para tal, foi utilizado o algoritmo k-means com o parâmetro de 10 clusters. Antes da aplicação do algoritmo, os dados foram previamente normalizados.
+<img width="885" height="141" alt="image" src="https://github.com/user-attachments/assets/43da499a-4afd-48dc-8696-127c25c5090b" />
+
 
 ## REGRAS DE ASSOCIAÇÃO
 
 Regras geradas com uma configuração de Suporte e Confiança.
-
 Colocar a lista de comandos emitidos no RStudio para conseguir os resultados obtidos
+
+A figura abaixo apresenta as 30 primeiras regras geradas pela execução do algoritmo Apriori na base de dados de musculação. O algoritmo foi executado com suporte mínimo de 0,001 e confiança mínima de 0,7.
+<img width="885" height="484" alt="image" src="https://github.com/user-attachments/assets/73fd32a9-028a-49f2-b5d3-b5ad3c76e51a" />
 
